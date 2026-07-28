@@ -1,0 +1,13 @@
+.body { font-family: 'Segoe UI', sans-serif; }
+.stApp { background: linear-gradient(135deg, #fbfdfe 0%, #ffffff 100%); }
+.stSidebar { background: #7bbddd; color: #0f172a; border-right: 1px solid #e6eef0; }
+.stSidebar .stButton>button, .stButton>button { border-radius: 999px; background: linear-gradient(90deg, #e6f6f6, #cfecec); color: #0f172a; border: 1px solid #2E7D7D; }
+.stMetric { border-radius: 18px; box-shadow: 0 8px 24px rgba(46, 125, 125, 0.06); background: #ffffff; }
+div[data-testid="stExpander"] { border-radius: 14px; padding: 0.4rem; background: #30a8cc; }
+@media only screen and (max-width: 768px) {
+  .stApp, .stSidebar, .css-1d391kg { padding: 0 0.5rem; }
+  .stButton>button { width: 100%; }
+  .stTextInput>div>input, .stTextArea>div>textarea, .stSelectbox>div>div>div>select { font-size: 1rem; }
+  .stMarkdown, .stCaption { font-size: 0.95rem; }
+  .css-1d391kg { padding-left: 0.5rem; padding-right: 0.5rem; }
+}
